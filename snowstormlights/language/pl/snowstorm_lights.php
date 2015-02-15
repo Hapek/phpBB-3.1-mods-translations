@@ -5,6 +5,7 @@
 *
 * @copyright (c) 2014 Prosk8er <http://www.gotskillslounge.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
+* @translate HPK <https://www.facebook.com/hpkgroup>
 *
 */
 
@@ -38,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'SCL_ENABLED'			=> 'Enable Smashable Christmas Lights',
-	'SCL_ENABLED_EXPLAIN'		=> 'Enables or disables the Smashable Christmas Lights.',
-	'SNOW_ENABLED'			=> 'Enable Snowstorm',
-	'SNOW_ENABLED_EXPLAIN'		=> 'Enables or disables the Snowstorm.',
+	'SCL_ENABLED'			=> 'Włącz świąteczne światełka do zbijania',
+	'SCL_ENABLED_EXPLAIN'		=> 'Włącza lub wyłącza świąteczne światełka do zbijania.',
+	'SNOW_ENABLED'			=> 'Włącz zamieć śnieżną',
+	'SNOW_ENABLED_EXPLAIN'		=> 'Włącza lub wyłącza zamieć śnieżną.',
 ));
